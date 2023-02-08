@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    
+}
+
+.container h1{
+    margin: 1rem;
+}
+
+.container span{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+    color: red;
+    
+}
+
+.container button{
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: grey;
+    color: #ffffff;
+    cursor: pointer;
+}
